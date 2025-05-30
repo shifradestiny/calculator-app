@@ -9,19 +9,22 @@ body {
   text-align: center;
   padding: 20px;
   font-size: 25px;
-  border-radius: 10px;
+  border-radius: 30px;
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .calculator-grid {
   background-color: rgb(255, 112, 179);
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 10px;
   display: grid;
   text-align: center;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  max-width: 400px;
+  max-width: 350px;
   margin: 0 auto;
 }
 .calculator-grid button {
@@ -30,14 +33,30 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-#calc-key {
   padding: 20px;
   font-size: 20px;
   border-radius: 50px;
   border: none;
   background-color: pink;
+}
+
+#input-row-2 {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: pink;
+}
+
+#input-row {
+  padding-bottom: 5px;
+}
+
+#toggle {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -4px;
 }
 
 footer {
