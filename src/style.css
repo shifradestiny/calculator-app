@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: pink;
+}
+
+.heading {
+  background-color: rgb(255, 70, 172);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+.calculator-grid {
+  background-color: rgb(255, 112, 179);
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.calculator-grid button {
+  width: 70px;
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#calc-key {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  border: none;
+  background-color: pink;
+}
+
+footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 70, 172);
+}
