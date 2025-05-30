@@ -40,14 +40,16 @@ body {
   border-radius: 50px;
   border: none;
   background-color: pink;
+  text-align: center;
 }
 
 #input-row-2 {
-  padding: 20px;
+  padding: 18px;
   font-size: 20px;
   border-radius: 50px;
   border: none;
   background-color: pink;
+  width: 200px;
 }
 
 #input-row {
