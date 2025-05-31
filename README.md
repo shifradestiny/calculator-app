@@ -1,7 +1,7 @@
 # Shifra's Calculator App 🧮
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d2710d3f-c534-41f0-bb8c-8eb6141c86a8/deploy-status)](https://app.netlify.com/projects/shifras-calculator/deploys)
-![Calculator Screenshot](images/calculator-screenshot.png)
+![Calculator Screenshot](images/calculator-preview.png)
 
 A simple user-friendly web-based calculator app that performs simple arithmetic operations.
 
