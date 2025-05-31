@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: pink;
+  color: black;
 }
 
 .heading {
@@ -9,7 +10,7 @@ body {
   padding: 15px;
   font-size: 25px;
   border-radius: 30px;
-  width: 420px;
+  width: 250px;
   margin: 0 auto;
   margin-top: 15px;
   color: white;
@@ -43,13 +44,15 @@ body {
   text-align: center;
 }
 
-#input-row-2 {
-  padding: 18px;
+#input-row-box {
+  padding: 20px;
+  height: 20px;
   font-size: 20px;
   border-radius: 50px;
   border: none;
   background-color: pink;
   width: 200px;
+  color: black;
 }
 
 #input-row {
@@ -90,7 +93,7 @@ a {
   background-color: #f25190;
 }
 
-.dark #input-row-2 {
+.dark #input-row-box {
   background-color: #f25190;
 }
 

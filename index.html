@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" type="text/css" />
-    <title>Calculator App 🧮</title>
+    <title>Shifra's Calculator 🧮</title>
   </head>
   <body class="dark">
     <div class="heading">
-      <header>Welcome to Shifra's Calculator App!</header>
+      <header>Shifra's Calculator</header>
     </div>
 
     <br />
@@ -16,28 +16,28 @@
     <div class="calculator-grid">
       <table>
         <tr>
-          <td><button id="clear">AC</button></td>
+          <td><button id="clear" onclick="clearDisplay()">AC</button></td>
           <td id="input-row" colspan="3">
-            <input type="text" id="input-row-2" disabled />
+            <input type="text" id="input-row-box" disabled />
           </td>
         </tr>
         <tr>
-          <td><button id="seven">7</button></td>
-          <td><button id="eight">8</button></td>
-          <td><button id="nine">9</button></td>
-          <td><button id="divide">÷</button></td>
+          <td><button id="7" onclick="appendToDisplay('7')">7</button></td>
+          <td><button id="8" onclick="appendToDisplay('8')">8</button></td>
+          <td><button id="9" onclick="appendToDisplay('9')">9</button></td>
+          <td><button id="÷" onclick="appendToDisplay('/')">÷</button></td>
         </tr>
         <tr>
-          <td><button id="four">4</button></td>
-          <td><button id="five">5</button></td>
-          <td><button id="six">6</button></td>
-          <td><button id="multiply">×</button></td>
+          <td><button id="4" onclick="appendToDisplay('4')">4</button></td>
+          <td><button id="5" onclick="appendToDisplay('5')">5</button></td>
+          <td><button id="6" onclick="appendToDisplay('6')">6</button></td>
+          <td><button id="×" onclick="appendToDisplay('*')">×</button></td>
         </tr>
         <tr>
-          <td><button id="one">1</button></td>
-          <td><button id="two">2</button></td>
-          <td><button id="three">3</button></td>
-          <td><button id="minus">-</button></td>
+          <td><button id="1" onclick="appendToDisplay('1')">1</button></td>
+          <td><button id="2" onclick="appendToDisplay('2')">2</button></td>
+          <td><button id="3" onclick="appendToDisplay('3')">3</button></td>
+          <td><button id="-" onclick="appendToDisplay('-')">-</button></td>
         </tr>
         <tr>
           <td>
@@ -45,9 +45,9 @@
               <img id="toggle" src="images/dark-light-mode-toggle.png" />
             </button>
           </td>
-          <td><button id="zero">0</button></td>
-          <td><button id="equal">=</button></td>
-          <td><button id="plus">+</button></td>
+          <td><button id="0" onclick="appendToDisplay('0')">0</button></td>
+          <td><button id="=" onclick="calculate()">=</button></td>
+          <td><button id="+" onclick="appendToDisplay('+')">+</button></td>
         </tr>
       </table>
     </div>
@@ -60,7 +60,8 @@
             href="https://www.linkedin.com/in/shifra-destiny-ssebuliba/"
             target="_blank"
             >Shifra Destiny Ssebuliba</a
-          >, available on
+          >, <br />
+          available on
           <a href="#" target="_blank">GitHub</a>
           and hosted on
           <a href="#" target="_blank"> Netlify</a>
@@ -68,6 +69,6 @@
       </footer>
     </div>
 
-    <script src="src/script.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
