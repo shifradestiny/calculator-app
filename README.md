@@ -18,7 +18,7 @@ A simple user-friendly web-based calculator app that performs simple arithmetic 
 
 ## About
 
-This simple calculator app was built as a beginner project to demostrate the skills that I have acquired through workshops. It is coded with the use of HTML, CSS and JavaScript. 
+This simple calculator app was built as a beginner project to demonstrate the skills that I have acquired through workshops. It is coded with the use of HTML, CSS and JavaScript. 
 
 ## Features
 
