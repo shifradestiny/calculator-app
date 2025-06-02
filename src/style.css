@@ -54,6 +54,7 @@ body {
   background-color: pink;
   width: 200px;
   color: black;
+  text-align: right;
 }
 
 #input-row {
